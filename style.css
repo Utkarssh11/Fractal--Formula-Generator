@@ -1,0 +1,80 @@
+canvas {
+    width: 320;
+    height: 320;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+  }
+  
+  body {
+    background-color: #61878d;
+    font-size: 24px;
+    font-family: "Franklin Gothic", sans-serif;
+  }
+  
+  #enter {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    font-size: 18px;
+    width: 96px;
+    background-color: #ffffff;
+    font-family: Consolas, "Lucidia Console", monospace;
+  }
+  
+  #about {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  .output {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    min-width: 432px;
+    max-width: 800px;
+    background-color: #ffffff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    font-family: Consolas, "Lucidia Console", monospace;
+    font-size: 14px;
+  }
+  
+  .generator {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    font-size: 18px;
+    width: 288px;
+    background-color: #ffffff;
+    font-family: monospace;
+  }
+  
+  .aboutButton {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    font-size: 18px;
+    width: 72px;
+    background-color: #ffffff;
+    font-family: monospace;
+  }
+  
+  .copier {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    font-size: 16px;
+    width: 56px;
+    background-color: #ffffff;
+    font-family: monospace;
+  }
+  
+  button:hover {
+    background-color: #dddddd;
+  }
+  
+  button:active {
+    background-color: #bbbbbb;
+  }
